@@ -34,7 +34,7 @@ cook 	=> cook
 choose from 1 to 5. 
 
 # Must Do After Installation ==
-* To sucure your encryption and decryption and change your secret_key, go to inc/function.php in line 125 and line 126. change the secret key from "Amit Subba Pomu" to your custom. It is very important to customize secret key. Make sure you create new admin user once you change the secret key and delete rest of the users because once you change the secret key the default users do not work.   
+* To sucure your encryption and decryption and change your secret_key, go to inc/function.php in line 125 and line 126. change the secret key from "Your Secret Key" to your custom. It is very important to customize secret key. Make sure you create new admin user once you change the secret key and delete rest of the users because once you change the secret key the default users do not work.   
 
 # Info ==
 * only admin create and delete users/products/
