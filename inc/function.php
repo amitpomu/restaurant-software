@@ -122,8 +122,8 @@ function encrypt_decrypt($action, $string) {
     $output = false;
 
     $encrypt_method = "AES-256-CBC";
-    $secret_key = 'Amit Subba Pomu key';
-    $secret_iv = 'Amit Subba Pomu iv';
+    $secret_key = 'Your Secret Key key';
+    $secret_iv = 'Your Secret Key iv';
 
     // hash
     $key = hash('sha256', $secret_key);
