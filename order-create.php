@@ -98,7 +98,7 @@ $query = "INSERT INTO employee_meal (id,year,month,meal_date,employee,emp_id,mea
 
 
 // report
-$query = "INSERT INTO report (id,report_date,visible,code,name,price,quantity,total_sales,delivery_type,from_time,user_id,user) VALUES (null,'{$date}',1,{$code},'{$name}',{$price},{$qty},{$price}*{$qty},'{$delivery}','{$from_time}', {$user_id}, '{$user}')";
+$query = "INSERT INTO report (id,report_date,visible,code,name,price,quantity,total_sales,delivery_type,from_time,to_time,user_id,user) VALUES (null,'{$date}',1,{$code},'{$name}',{$price},{$qty},{$price}*{$qty},'{$delivery}','{$from_time}', '', {$user_id}, '{$user}')";
 			$row = query($query);
 			if($row){
 				echo "success";				
